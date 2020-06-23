@@ -17,4 +17,4 @@
 
 #### 参与贡献
 
-1. 小威老师 xiaoweijiagou@163.com
+1. CGP 1577992659@qq.com
