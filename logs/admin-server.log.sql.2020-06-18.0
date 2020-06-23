@@ -1,0 +1,51 @@
+2020-06-18 14:38:35,384 [http-nio-8080-exec-6] ==>  Preparing: select * from sys_user t where t.username = ? 
+2020-06-18 14:38:35,397 [http-nio-8080-exec-6] ==> Parameters: admin(String)
+2020-06-18 14:38:35,417 [http-nio-8080-exec-6] <==      Total: 1
+2020-06-18 14:38:35,430 [http-nio-8080-exec-6] ==>  Preparing: select distinct p.* from sys_permission p inner join sys_role_permission rp on p.id = rp.permissionId inner join sys_role_user ru on ru.roleId = rp.roleId where ru.userId = ? order by p.sort 
+2020-06-18 14:38:35,433 [http-nio-8080-exec-6] ==> Parameters: 1(Long)
+2020-06-18 14:38:35,481 [http-nio-8080-exec-6] <==      Total: 39
+2020-06-18 14:38:35,663 [taskExecutor-1] ==>  Preparing: insert into sys_logs(userId, module, flag, remark, createTime) values(?, ?, ?, ?, now()) 
+2020-06-18 14:38:35,679 [taskExecutor-1] ==> Parameters: 1(Long), 登陆(String), true(Boolean), null
+2020-06-18 14:38:35,897 [taskExecutor-1] <==    Updates: 1
+2020-06-18 14:38:36,268 [http-nio-8080-exec-10] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
+2020-06-18 14:38:36,271 [http-nio-8080-exec-10] ==> Parameters: 1(Long)
+2020-06-18 14:38:36,359 [http-nio-8080-exec-10] <==      Total: 1
+2020-06-18 14:38:39,543 [http-nio-8080-exec-7] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
+2020-06-18 14:38:39,546 [http-nio-8080-exec-7] ==> Parameters: 1(Long)
+2020-06-18 14:38:39,555 [http-nio-8080-exec-7] <==      Total: 1
+2020-06-18 14:38:48,778 [http-nio-8080-exec-5] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
+2020-06-18 14:38:48,780 [http-nio-8080-exec-5] ==> Parameters: 1(Long)
+2020-06-18 14:38:48,781 [http-nio-8080-exec-5] <==      Total: 1
+2020-06-18 14:39:32,710 [http-nio-8080-exec-6] ==>  Preparing: select * from sys_permission t order by t.sort 
+2020-06-18 14:39:32,711 [http-nio-8080-exec-6] ==> Parameters: 
+2020-06-18 14:39:32,717 [http-nio-8080-exec-6] <==      Total: 39
+2020-06-18 14:39:35,094 [http-nio-8080-exec-4] ==>  Preparing: select * from sys_permission t where t.type = 1 order by t.sort 
+2020-06-18 14:39:35,095 [http-nio-8080-exec-4] ==> Parameters: 
+2020-06-18 14:39:35,099 [http-nio-8080-exec-4] <==      Total: 16
+2020-06-18 14:40:07,080 [http-nio-8080-exec-2] ==>  Preparing: insert into sys_permission(parentId, name, css, href, type, permission, sort) values(?, ?, ?, ?, ?, ?, ?) 
+2020-06-18 14:40:07,083 [http-nio-8080-exec-2] ==> Parameters: 1(Long), 可视化表单(String), (String), login.html(String), 1(Integer), (String), 100(Integer)
+2020-06-18 14:40:07,134 [http-nio-8080-exec-2] <==    Updates: 1
+2020-06-18 14:40:07,139 [taskExecutor-2] ==>  Preparing: insert into sys_logs(userId, module, flag, remark, createTime) values(?, ?, ?, ?, now()) 
+2020-06-18 14:40:07,140 [taskExecutor-2] ==> Parameters: 1(Long), 保存菜单(String), true(Boolean), null
+2020-06-18 14:40:07,255 [taskExecutor-2] <==    Updates: 1
+2020-06-18 14:40:08,520 [http-nio-8080-exec-9] ==>  Preparing: select * from sys_permission t order by t.sort 
+2020-06-18 14:40:08,521 [http-nio-8080-exec-9] ==> Parameters: 
+2020-06-18 14:40:08,526 [http-nio-8080-exec-9] <==      Total: 40
+2020-06-18 14:40:14,947 [http-nio-8080-exec-8] ==>  Preparing: select count(1) from t_dict t 
+2020-06-18 14:40:14,948 [http-nio-8080-exec-8] ==> Parameters: 
+2020-06-18 14:40:15,291 [http-nio-8080-exec-8] <==      Total: 1
+2020-06-18 14:40:15,297 [http-nio-8080-exec-8] ==>  Preparing: select * from t_dict t order by id asc limit ?, ? 
+2020-06-18 14:40:15,300 [http-nio-8080-exec-8] ==> Parameters: 0(Integer), 10(Integer)
+2020-06-18 14:40:15,303 [http-nio-8080-exec-8] <==      Total: 9
+2020-06-18 14:40:18,478 [http-nio-8080-exec-9] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
+2020-06-18 14:40:18,479 [http-nio-8080-exec-9] ==> Parameters: 1(Long)
+2020-06-18 14:40:18,481 [http-nio-8080-exec-9] <==      Total: 1
+2020-06-18 14:40:20,268 [http-nio-8080-exec-8] ==>  Preparing: select * from t_dict t where t.type = ? 
+2020-06-18 14:40:20,269 [http-nio-8080-exec-8] ==> Parameters: userStatus(String)
+2020-06-18 14:40:20,271 [http-nio-8080-exec-8] <==      Total: 3
+2020-06-18 14:40:20,342 [http-nio-8080-exec-10] ==>  Preparing: select count(1) from sys_user t 
+2020-06-18 14:40:20,344 [http-nio-8080-exec-10] ==> Parameters: 
+2020-06-18 14:40:20,349 [http-nio-8080-exec-10] <==      Total: 1
+2020-06-18 14:40:20,355 [http-nio-8080-exec-10] ==>  Preparing: select * from sys_user t order by username desc, nickname asc limit ?, ? 
+2020-06-18 14:40:20,356 [http-nio-8080-exec-10] ==> Parameters: 0(Integer), 10(Integer)
+2020-06-18 14:40:20,445 [http-nio-8080-exec-10] <==      Total: 2
