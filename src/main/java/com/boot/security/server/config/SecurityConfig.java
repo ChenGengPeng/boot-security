@@ -19,8 +19,6 @@ import com.boot.security.server.filter.TokenFilter;
 
 /**
  * spring security配置
-
- *         2017年10月16日
  *
  */
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -53,7 +51,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 		http.authorizeRequests()
 				.antMatchers("/", "/*.html", "/favicon.ico", "/css/**", "/js/**", "/fonts/**", "/layui/**", "/img/**",
-						"/v2/api-docs/**", "/swagger-resources/**", "/webjars/**", "/pages/**", "/druid/**",
+						"/v2/api-docs/**", "/swagger-resources/**", "/webjars/**", "/pages/**", "/druid/**","/bd/**",
 						"/statics/**")
 				.permitAll().anyRequest().authenticated();
 		http.formLogin().loginProcessingUrl("/login")

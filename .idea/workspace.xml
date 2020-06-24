@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:orgina" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="012cd0f6-0818-4b33-a10a-ea74da95f15f" name="Default Changelist" comment="UPDATE" />
+    <list default="true" id="012cd0f6-0818-4b33-a10a-ea74da95f15f" name="Default Changelist" comment="UPDATE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/admin-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/admin-server.log.error" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-server.log.error" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/AsycTaskExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/AsycTaskExecutorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/SecurityHandlerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/SecurityHandlerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-security-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-security-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-security-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/admin-server.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/admin-server.log.error" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/admin-server.log.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-06-23T20-00-39_984-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.boot.security.server.SecurityApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.boot.security.server.SecurityApplicationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.boot.security.server.SecurityApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.boot.security.server.SecurityApplicationTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +175,7 @@
       <workItem from="1592816352884" duration="9422000" />
       <workItem from="1592901596237" duration="21000" />
       <workItem from="1592901692846" duration="14600000" />
-      <workItem from="1592965065109" duration="148000" />
+      <workItem from="1592965065109" duration="7960000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE">
       <created>1592910135112</created>
@@ -183,6 +225,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
@@ -219,10 +272,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="385" y="81" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1592843088950" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1592964846701">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1592965149081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592964846701" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592965149081" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592962460642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,38 +288,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="27" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592909685343" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1592964902208">
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom" timestamp="1593013846710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592964902208" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1592964902207">
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593013846710" />
+    <state width="1493" height="132" key="GridCell.Tab.0.center" timestamp="1593013846710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592964902207" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1592964902206">
+    <state width="1493" height="132" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593013846710" />
+    <state width="1493" height="132" key="GridCell.Tab.0.left" timestamp="1593013846710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592964902206" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1592964902208">
+    <state width="1493" height="132" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593013846710" />
+    <state width="1493" height="132" key="GridCell.Tab.0.right" timestamp="1593013846710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592964902208" />
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom" timestamp="1592964902209">
+    <state width="1493" height="132" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593013846710" />
+    <state width="1493" height="295" key="GridCell.Tab.1.bottom" timestamp="1592986379235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592964902209" />
-    <state width="1493" height="184" key="GridCell.Tab.1.center" timestamp="1592964902208">
+    <state width="1493" height="295" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592986379235" />
+    <state width="1493" height="295" key="GridCell.Tab.1.center" timestamp="1592986379235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592964902208" />
-    <state width="1493" height="184" key="GridCell.Tab.1.left" timestamp="1592964902208">
+    <state width="1493" height="295" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592986379235" />
+    <state width="1493" height="295" key="GridCell.Tab.1.left" timestamp="1592986379235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592964902208" />
-    <state width="1493" height="184" key="GridCell.Tab.1.right" timestamp="1592964902209">
+    <state width="1493" height="295" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592986379235" />
+    <state width="1493" height="295" key="GridCell.Tab.1.right" timestamp="1592986379235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592964902209" />
+    <state width="1493" height="295" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592986379235" />
     <state width="212" height="539" key="HiddenNamespacesPopup" timestamp="1592638911769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,13 +336,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="130" width="745" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592758807927" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1592913611366">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1592986378575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592913611366" />
-    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1592910692829">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592986378575" />
+    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1592987305506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592910692829" />
+    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592987305506" />
   </component>
 </project>

@@ -1,11 +1,11 @@
 package com.boot.security.server.config;
 
-import java.io.IOException;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import com.boot.security.server.dto.LoginUser;
+import com.boot.security.server.dto.ResponseInfo;
+import com.boot.security.server.dto.Token;
+import com.boot.security.server.filter.TokenFilter;
+import com.boot.security.server.service.TokenService;
+import com.boot.security.server.utils.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,17 +18,13 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
-import com.boot.security.server.dto.LoginUser;
-import com.boot.security.server.dto.ResponseInfo;
-import com.boot.security.server.dto.Token;
-import com.boot.security.server.filter.TokenFilter;
-import com.boot.security.server.service.TokenService;
-import com.boot.security.server.utils.ResponseUtil;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * spring security处理器
-
- *         2017年10月16日
  */
 @Configuration
 public class SecurityHandlerConfig {
