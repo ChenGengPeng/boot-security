@@ -49,6 +49,11 @@ public class bdController {
         return false;
     }
 
+    /**
+     * 根据用户id获取该用户的表单
+     * @param userId
+     * @return
+     */
     @PreAuthorize("hasAuthority('bd:select')")
     @GetMapping("/{#userId}")
     @ApiOperation(value = "查询")
@@ -56,6 +61,10 @@ public class bdController {
         return bdService.selectFileName(userId);
     }
 
+    /**
+     * 根据表单名删除
+     * @param fileName
+     */
     @PreAuthorize("hasAuthority('bd:delete')")
     @DeleteMapping("/{#fileName}")
     @ApiOperation(value = "删除")

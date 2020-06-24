@@ -17,7 +17,7 @@ $(function () {
     })
     contentSP.mouseup(function (e) {
         if ($(".clone").length>0){
-            switch ($(".clone label").html()) {
+            switch ($(".clone label").html().trim()) {
                 case "邮箱输入框":
                     $("<li class=\"nav-item\" " +
                         "             title=\"\"\n" +
@@ -128,6 +128,59 @@ $(function () {
     $(document).on('click',function (e) {
         $(".popover").popover('dispose')
     })
+
+//    导出
+    $("#exportBtn").click(function () {
+        var html = $(".contentShowPlace").children("ul").html()
+        var name = $(".newBdName").children("h3").children("label").html()
+        if (confirm("是否确定保存"+name)){
+                $.ajax({
+                    url:"http://localhost:8080/bd/save",
+                    data:JSON.stringify({
+                        "innerHtml":html,
+                        "bDDto":name
+                    }),
+                    type:"post",
+                    success:function () {
+                        $("#alreadyLi").children("table").children("tbody")
+                            .append("<tr>\n" +
+                                "     <th scope=\"row\">1</th>\n" +
+                                "      <td>"+name+"</td>\n" +
+                                "<td>\n" +
+                                "  <button type=\"button\"\n" +
+                                "    class=\"btn btn-danger btn-sm\">删除\n" +
+                                "  </button>\n" +
+                                "   </td>"+
+                                "     </tr>")
+                        console.log("success");
+                    },
+                    error:function () {
+                        console.log("传输失败");
+                    }
+                })
+        }
+    })
+    var tdName = $(".newBdName").children("h3").children("label").html()
+//    导入
+    $("#alreadyLi").delegate("td","click",function () {
+        tdName = $(".newBdName").children("h3").children("label").html()
+        if (confirm("是否确定导入"+tdName+"，导入将会刷新当前页面")){
+            console.log($(this).html());
+            //获取点击对应的表单内容加入页面
+            // $.get({
+            //
+            // })
+        }
+    })
+//    删除
+    $("#alreadyLi").delegate("button","click",function (e) {
+        e.stopPropagation()
+        tdName = $(".newBdName").children("h3").children("label").html()
+        if (confirm("是否删除"+tdName)){
+            $(this).parent().parent().remove()
+        //    发送请求删除
+        }
+    })
 })
 
 function overShow() {
@@ -138,6 +191,15 @@ function overShow() {
         textAreaVal[i] = elementNow.find("option").eq(i).html()+"\n"
     }
     switch (elType) {
+        case "newBdName":
+            return "<div class=\"form-group\">" +
+                "<label>控件名称</label>" +
+                "<input type=\"text\"\n" +
+                ' class=\"form-control\" id=\"inputName\"' +
+                ' placeholder=\"'+el.innerText+'\"></div>' +
+                "<div class=''>"+
+                "<button id='ok' type=\"button\" class=\"btn btn-primary btn-sm\">确定</button>"
+                +"</div>"
         case "newEmailInput":
             return "<div class=\"form-group\">" +
                     "<label>控件名称</label>" +

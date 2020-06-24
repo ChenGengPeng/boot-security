@@ -69,6 +69,6 @@ log:
 token:
   expire:
     seconds: 7200
-  jwtSecret: (ZHANG:)_$^11244^%$_(HUA:)_@@++--(JIE:)_++++_.sds_(SHUAI:)
+  jwtSecret: (XIAO:)_$^11244^%$_(WEI:)_@@++--(LAO:)_++++_.sds_(SHI:)
 server:
   port: 8080
