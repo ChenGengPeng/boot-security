@@ -16,3 +16,6 @@
 2020-06-24 10:00:09,429 [http-nio-8080-exec-2] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
 2020-06-24 10:00:09,435 [http-nio-8080-exec-2] ==> Parameters: 1(Long)
 2020-06-24 10:00:09,441 [http-nio-8080-exec-2] <==      Total: 1
+2020-06-24 10:21:47,574 [http-nio-8080-exec-7] ==>  Preparing: select count(1) from t_notice t left join t_notice_read r on r.noticeId = t.id and r.userId = ? where t.status = 1 and r.userId is null 
+2020-06-24 10:21:47,941 [http-nio-8080-exec-7] ==> Parameters: 1(Long)
+2020-06-24 10:21:48,003 [http-nio-8080-exec-7] <==      Total: 1
