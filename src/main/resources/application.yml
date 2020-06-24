@@ -19,8 +19,6 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       filters: stat,wall
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-      stat-view-servlet:
-        allow: 127.0.0.1
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
@@ -69,6 +67,6 @@ log:
 token:
   expire:
     seconds: 7200
-  jwtSecret: (XIAO:)_$^11244^%$_(WEI:)_@@++--(LAO:)_++++_.sds_(SHI:)
+  jwtSecret: (ZHANG:)_$^11244^%$_(HUA:)_@@++--(JIE:)_++++_.sds_(SHUAI:)
 server:
   port: 8080
