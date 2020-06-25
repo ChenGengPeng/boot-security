@@ -108,7 +108,6 @@ com\boot\security\server\service\JobService.class
 com\boot\security\server\service\impl\GenerateServiceImpl$1.class
 com\boot\security\server\controller\JobController$2.class
 com\boot\security\server\model\Permission.class
-com\boot\security\server\config\DruidConfig$DataSourceProperties.class
 com\boot\security\server\controller\bdController.class
 com\boot\security\server\page\table\PageTableHandler$OrderHandler.class
 com\boot\security\server\config\RedisConfig.class
@@ -124,6 +123,5 @@ com\boot\security\server\controller\FileController.class
 com\boot\security\server\dao\NoticeDao.class
 com\boot\security\server\dto\LayuiFile.class
 com\boot\security\server\utils\UserUtil.class
-com\boot\security\server\config\DruidConfig.class
 com\boot\security\server\controller\NoticeController.class
 com\boot\security\server\config\SecurityHandlerConfig$3.class

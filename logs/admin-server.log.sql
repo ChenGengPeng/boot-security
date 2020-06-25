@@ -16,3 +16,15 @@
 2020-06-25 00:11:35,960 [http-nio-8080-exec-8] ==>  Preparing: select * from file_info t order by updateTime desc limit ?, ? 
 2020-06-25 00:11:35,962 [http-nio-8080-exec-8] ==> Parameters: 0(Integer), 10(Integer)
 2020-06-25 00:11:35,965 [http-nio-8080-exec-8] <==      Total: 1
+2020-06-25 22:18:18,321 [http-nio-8080-exec-1] ==>  Preparing: SELECT fileName FROM bd_file WHERE user_id = ? 
+2020-06-25 22:18:18,405 [http-nio-8080-exec-1] ==> Parameters: null
+2020-06-25 22:18:18,508 [http-nio-8080-exec-1] <==      Total: 0
+2020-06-25 22:18:27,735 [http-nio-8080-exec-3] ==>  Preparing: SELECT fileName FROM bd_file WHERE user_id = ? 
+2020-06-25 22:18:27,736 [http-nio-8080-exec-3] ==> Parameters: null
+2020-06-25 22:18:27,739 [http-nio-8080-exec-3] <==      Total: 0
+2020-06-25 22:18:37,524 [http-nio-8080-exec-4] ==>  Preparing: SELECT fileName FROM bd_file WHERE user_id = ? 
+2020-06-25 22:18:37,525 [http-nio-8080-exec-4] ==> Parameters: null
+2020-06-25 22:18:37,526 [http-nio-8080-exec-4] <==      Total: 0
+2020-06-25 22:18:39,943 [http-nio-8080-exec-5] ==>  Preparing: SELECT fileName FROM bd_file WHERE user_id = ? 
+2020-06-25 22:18:39,944 [http-nio-8080-exec-5] ==> Parameters: null
+2020-06-25 22:18:39,945 [http-nio-8080-exec-5] <==      Total: 0

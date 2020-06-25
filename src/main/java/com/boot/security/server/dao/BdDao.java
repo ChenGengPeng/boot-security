@@ -13,13 +13,13 @@ public interface BdDao {
     int save(BDDto bdDto);
 
     @Select("select * from bd_file t where t.id = #{id}")
-    BDDto getById(Long id);
+    BDDto getById(long id);
 
     @Select("select * from bd_file t where t.fileName =#{fileName} and t.user_id = #{user_id}")
     BDDto getByFileName(String fileName ,Long user_id);
 
     @Delete("delete from bd_file where id = #{id}")
-    int delete(Long id);
+    int delete(long id);
 
     @Delete("delete from bd_file where fileName = #{fileName} ")
     int deleteByFileName(String fileName);

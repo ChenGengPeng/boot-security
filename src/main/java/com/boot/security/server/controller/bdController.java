@@ -27,7 +27,7 @@ public class bdController {
     @PreAuthorize("hasAuthority('bd:save')")
     @PostMapping("/save")
     @ApiOperation(value = "保存")
-    public boolean saveBD(@RequestBody String innerHTML, @RequestBody BDDto bdDto){
+    public void saveBD(@RequestBody String innerHTML, @RequestBody BDDto bdDto){
 
         if (innerHTML != null && "" != innerHTML){
             if (bdDto.getFileName() != null && "" != bdDto.getFileName()){
@@ -43,10 +43,9 @@ public class bdController {
                 }catch (IOException e){
                     e.printStackTrace();
                 }
-                return bdService.save(bdDto);
+               bdService.save(bdDto);
             }
         }
-        return false;
     }
 
     /**
@@ -54,10 +53,10 @@ public class bdController {
      * @param userId
      * @return
      */
-    @PreAuthorize("hasAuthority('bd:select')")
+//    @PreAuthorize("hasAuthority('bd:select')")
     @GetMapping("/{#userId}")
     @ApiOperation(value = "查询")
-    public List<String> saveFile(@PathVariable Long userId){
+    public List<String> saveFile(Long userId){
         return bdService.selectFileName(userId);
     }
 

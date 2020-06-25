@@ -55,7 +55,6 @@ D:\Springboot\boot-security\src\main\java\com\boot\security\server\service\impl\
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\controller\SysLogsController.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\service\BDService.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\controller\bdController.java
-D:\Springboot\boot-security\src\main\java\com\boot\security\server\config\DruidConfig.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\service\SysLogService.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\dto\LayuiFile.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\controller\RoleController.java
