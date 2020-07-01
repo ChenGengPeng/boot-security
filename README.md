@@ -10,11 +10,12 @@
 2. 配置信息在application.yml里，数据库的用户名、密码、ip、端口等，根据情况修改一下
 
 #### 使用说明
-1. 安装运行文档在/文档和sql/01 安装运行.docx
 1. 右键运行启动类com.boot.security.server.SecurityApplication
 2. 访问http://localhost:8080，用户名和密码都是admin
+3. 也可直接访问http://101.37.30.70:8080/index.html
 
 
 #### 参与贡献
 
 1. 陈耿鹏 1577992659@qq.com
+2. 张华杰 863443243@qq.com

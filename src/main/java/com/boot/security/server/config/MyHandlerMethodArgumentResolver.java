@@ -14,13 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 自定义参数解析器
  *
- * 注: 自定义参数解析器, 实现对RequestResponseBodyMethodProcessor的扩展
- *
- * 提示: 此解析器要实现的功能是: 若controller方法的参数前, 使用了@RequestBody注解, 那么解析此参数时，
- *                           1、若Content-Type为application/x-www-form-urlencoded，
- *                              那么走ServletModelAttributeMethodProcessor解析器
- *                           2、若Content-Type不为application/x-www-form-urlencoded，
- *                              那么走本应该走的RequestResponseBodyMethodProcessor解析器
  */
 public class MyHandlerMethodArgumentResolver implements HandlerMethodArgumentResolver {
 
