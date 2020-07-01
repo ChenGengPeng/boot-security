@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 /**
  * Restful方式登陆token
-
- *         2017年8月4日
  */
 public class Token implements Serializable {
 

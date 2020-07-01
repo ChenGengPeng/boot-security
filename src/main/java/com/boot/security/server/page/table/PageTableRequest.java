@@ -5,7 +5,6 @@ import java.util.Map;
 
 /**
  * 分页查询参数
-
  */
 public class PageTableRequest implements Serializable {
 

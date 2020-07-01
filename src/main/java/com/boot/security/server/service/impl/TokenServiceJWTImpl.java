@@ -1,14 +1,12 @@
 package com.boot.security.server.service.impl;
 
-import java.security.Key;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
-import javax.crypto.spec.SecretKeySpec;
-import javax.xml.bind.DatatypeConverter;
-
+import com.boot.security.server.dto.LoginUser;
+import com.boot.security.server.dto.Token;
+import com.boot.security.server.service.SysLogService;
+import com.boot.security.server.service.TokenService;
+import io.jsonwebtoken.ExpiredJwtException;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -19,19 +17,17 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
-import com.boot.security.server.dto.LoginUser;
-import com.boot.security.server.dto.Token;
-import com.boot.security.server.service.SysLogService;
-import com.boot.security.server.service.TokenService;
-
-import io.jsonwebtoken.ExpiredJwtException;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+import javax.crypto.spec.SecretKeySpec;
+import javax.xml.bind.DatatypeConverter;
+import java.security.Key;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 /**
  * token存到redis的实现类<br>
  * jwt实现的token
-
  */
 @Primary
 @Service

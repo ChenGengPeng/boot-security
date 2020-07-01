@@ -12,5 +12,5 @@ public interface BDService {
 
     boolean delete(String fileName);
 
-    BDDto selectByFileNAME(String fileName,long user_id);
+    BDDto selectByFileNAME(String fileName,Long user_id);
 }

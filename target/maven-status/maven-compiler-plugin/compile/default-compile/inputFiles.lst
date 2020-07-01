@@ -1,3 +1,4 @@
+D:\Springboot\boot-security\src\main\java\com\boot\security\server\config\ConfigArgumentResolvers.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\page\table\PageTableArgumentResolver.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\model\FileInfo.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\controller\FileController.java
@@ -88,6 +89,7 @@ D:\Springboot\boot-security\src\main\java\com\boot\security\server\model\Permiss
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\config\AsycTaskExecutorConfig.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\model\BaseEntity.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\config\WebMvcConfig.java
+D:\Springboot\boot-security\src\main\java\com\boot\security\server\config\MyHandlerMethodArgumentResolver.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\page\table\PageTableRequest.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\dao\PermissionDao.java
 D:\Springboot\boot-security\src\main\java\com\boot\security\server\service\MailService.java

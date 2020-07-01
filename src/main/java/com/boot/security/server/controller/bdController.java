@@ -56,7 +56,7 @@ public class bdController {
 //    @PreAuthorize("hasAuthority('bd:select')")
     @GetMapping("/{#userId}")
     @ApiOperation(value = "查询")
-    public List<String> saveFile(Long userId){
+    public List<String> saveFile(@PathVariable Long userId){
         return bdService.selectFileName(userId);
     }
 

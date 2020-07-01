@@ -38,7 +38,7 @@ public class BDServiceImpl  implements BDService {
     }
 
     @Override
-    public BDDto selectByFileNAME(String fileName, long user_id) {
+    public BDDto selectByFileNAME(String fileName, Long user_id) {
         return selectByFileNAME(fileName,user_id);
     }
 

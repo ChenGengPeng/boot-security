@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * 分页查询返回
-
  */
 public class PageTableResponse implements Serializable {
 

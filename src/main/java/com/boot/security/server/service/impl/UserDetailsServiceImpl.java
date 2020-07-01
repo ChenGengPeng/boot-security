@@ -1,7 +1,11 @@
 package com.boot.security.server.service.impl;
 
-import java.util.List;
-
+import com.boot.security.server.dao.PermissionDao;
+import com.boot.security.server.dto.LoginUser;
+import com.boot.security.server.model.Permission;
+import com.boot.security.server.model.SysUser;
+import com.boot.security.server.model.SysUser.Status;
+import com.boot.security.server.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
@@ -12,19 +16,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.boot.security.server.dao.PermissionDao;
-import com.boot.security.server.dto.LoginUser;
-import com.boot.security.server.model.Permission;
-import com.boot.security.server.model.SysUser;
-import com.boot.security.server.model.SysUser.Status;
-import com.boot.security.server.service.UserService;
+import java.util.List;
 
 /**
- * spring security登陆处理<br>
- * <p>
- * 密码校验请看文档（02 框架及配置），第三章第4节
- *
- * @author 小威老师 xiaoweijiagou@163.com
+ * spring security登陆处理
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

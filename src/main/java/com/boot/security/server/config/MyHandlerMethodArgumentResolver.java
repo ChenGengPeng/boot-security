@@ -21,9 +21,6 @@ import javax.servlet.http.HttpServletRequest;
  *                              那么走ServletModelAttributeMethodProcessor解析器
  *                           2、若Content-Type不为application/x-www-form-urlencoded，
  *                              那么走本应该走的RequestResponseBodyMethodProcessor解析器
- *
- * @author JustryDeng
- * @date 2019/8/19 19:47
  */
 public class MyHandlerMethodArgumentResolver implements HandlerMethodArgumentResolver {
 

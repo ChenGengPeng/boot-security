@@ -11,6 +11,7 @@ com\boot\security\server\dto\ResponseInfo.class
 com\boot\security\server\service\impl\MailServiceImpl.class
 com\boot\security\server\dto\GenerateDetail.class
 com\boot\security\server\service\impl\PermissionServiceImpl.class
+com\boot\security\server\config\MyHandlerMethodArgumentResolver.class
 com\boot\security\server\model\Dict.class
 com\boot\security\server\model\SysUser.class
 com\boot\security\server\dao\MailDao.class
@@ -74,6 +75,7 @@ com\boot\security\server\config\WebMvcConfig.class
 com\boot\security\server\config\LoginPageConfig.class
 com\boot\security\server\controller\NoticeController$2.class
 com\boot\security\server\page\table\PageTableHandler$CountHandler.class
+com\boot\security\server\config\ConfigArgumentResolvers.class
 com\boot\security\server\model\Mail.class
 com\boot\security\server\controller\FileController$2.class
 com\boot\security\server\model\JobModel.class

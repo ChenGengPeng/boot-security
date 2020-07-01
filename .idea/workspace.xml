@@ -35,16 +35,64 @@
       <change beforePath="$PROJECT_DIR$/logs/admin-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-server.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/admin-server.log.error" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-server.log.error" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/admin-server.log.sql" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-server.log.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/SecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/SecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/advice/LogAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/advice/LogAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/ConfigArgumentResolvers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/ConfigArgumentResolvers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/MyHandlerMethodArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/config/MyHandlerMethodArgumentResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/controller/bdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/controller/bdController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/dao/BdDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/dao/BdDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/dto/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/dto/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/page/table/PageTableResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/BDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/BDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/TokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/BDServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/BDServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/boot-security-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-security-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/TokenServiceDbImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/TokenServiceDbImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/TokenServiceJWTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/TokenServiceJWTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/StrUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/security/server/utils/StrUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/controller.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/dao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/htmlAdd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/htmlList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/htmlUpdate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/java.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generate/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-security-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/SecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/SecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/advice/LogAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/advice/LogAdvice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/controller/bdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/controller/bdController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/dao/BdDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/dao/BdDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/dto/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/dto/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableArgumentResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/page/table/PageTableResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/BDService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/BDService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/BDServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/BDServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/SysLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/TokenServiceDbImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/TokenServiceDbImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/TokenServiceJWTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/TokenServiceJWTImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/service/impl/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/SpringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/SpringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/StrUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/security/server/utils/StrUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/controller.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/dao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/htmlAdd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/htmlList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/htmlUpdate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/java.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/pages/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/pages/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.boot.security.server.SecurityApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.boot.security.server.SecurityApplicationTest.xml" afterDir="false" />
@@ -62,8 +110,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -181,7 +229,9 @@
       <workItem from="1592816352884" duration="9422000" />
       <workItem from="1592901596237" duration="21000" />
       <workItem from="1592901692846" duration="14600000" />
-      <workItem from="1592965065109" duration="14549000" />
+      <workItem from="1592965065109" duration="17542000" />
+      <workItem from="1593538038866" duration="1250000" />
+      <workItem from="1593564656534" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE">
       <created>1592910135112</created>
@@ -239,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593015292703</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="UPDATE">
+      <created>1593096922182</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593096922182</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +324,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -320,54 +378,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="27" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592909685343" />
-    <state width="1493" height="308" key="GridCell.Tab.0.bottom" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.0.center" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.0.left" timestamp="1593094684028">
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1593539818618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593094684028" />
-    <state width="1493" height="308" key="GridCell.Tab.0.right" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593539818618" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.1.bottom" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.1.center" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.1.left" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="308" key="GridCell.Tab.1.right" timestamp="1593094684029">
+    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="308" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593094684029" />
-    <state width="1493" height="253" key="GridCell.Tab.2.bottom" timestamp="1593093130868">
+    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.2.bottom" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593093130868" />
-    <state width="1493" height="253" key="GridCell.Tab.2.center" timestamp="1593093130867">
+    <state width="1493" height="253" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.2.center" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593093130867" />
-    <state width="1493" height="253" key="GridCell.Tab.2.left" timestamp="1593093130867">
+    <state width="1493" height="253" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.2.left" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593093130867" />
-    <state width="1493" height="253" key="GridCell.Tab.2.right" timestamp="1593093130867">
+    <state width="1493" height="253" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
+    <state width="1493" height="253" key="GridCell.Tab.2.right" timestamp="1593539818619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593093130867" />
+    <state width="1493" height="253" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593539818619" />
     <state width="212" height="539" key="HiddenNamespacesPopup" timestamp="1592638911769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -376,10 +434,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592964900089" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1593015478915">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1593096953322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593015478915" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593096953322" />
     <state x="562" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593094837824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -388,13 +446,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="130" width="745" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592758807927" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1593089540259">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1593097373328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593089540259" />
-    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1593093969198">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593097373328" />
+    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1593538458096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593093969198" />
+    <state x="800" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593538458096" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/boot/security/server/controller/bdController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

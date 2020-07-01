@@ -1,12 +1,11 @@
 package com.boot.security.server.utils;
 
-import java.util.List;
-
 import com.google.common.collect.Lists;
+
+import java.util.List;
 
 /**
  * 字符串转化工具类
-
  */
 public class StrUtil {
 

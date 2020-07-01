@@ -1,7 +1,9 @@
 package com.boot.security.server.service.impl;
 
-import java.util.Date;
-
+import com.boot.security.server.dao.SysLogsDao;
+import com.boot.security.server.model.SysLogs;
+import com.boot.security.server.model.SysUser;
+import com.boot.security.server.service.SysLogService;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.commons.lang3.time.DateUtils;
 import org.slf4j.Logger;
@@ -10,10 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import com.boot.security.server.dao.SysLogsDao;
-import com.boot.security.server.model.SysLogs;
-import com.boot.security.server.model.SysUser;
-import com.boot.security.server.service.SysLogService;
+import java.util.Date;
 
 @Service
 public class SysLogServiceImpl implements SysLogService {
@@ -24,7 +23,7 @@ public class SysLogServiceImpl implements SysLogService {
 	private SysLogsDao sysLogsDao;
 
 	/**
-	 * 2018.05.12将该方法改为异步,用户由调用者设置
+	 * 将该方法改为异步,用户由调用者设置
 	 *
 	 * @param sysLogs
 	 * @see com.boot.security.server.advice.LogAdvice

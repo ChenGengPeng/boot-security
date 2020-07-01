@@ -12,9 +12,6 @@ import java.util.List;
 
 /**
  * 配置注册参数解析器
- *
- * @author JustryDeng
- * @date 2019/8/20 10:13
  */
 @Configuration
 public class ConfigArgumentResolvers {
