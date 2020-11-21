@@ -48,7 +48,6 @@
 			updateTime = now()
 
 		</set>
-
 		where t.id = #{id}
 	</update>
 
